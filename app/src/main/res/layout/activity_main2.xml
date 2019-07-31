@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="#fff">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading"
+            android:text="HEading Here"
+            android:background="#673AB7"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+
+                <TextView
+                    android:id="@+id/population"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:padding="8dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:background="@drawable/content"
+                    android:text="Population here"
+                    />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/desc_cont"/>
+
+                <TextView
+                    android:id="@+id/area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:padding="8dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:background="@drawable/content"
+                    android:text="area here"
+                    />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/desc_cont"/>
+
+                <TextView
+                    android:id="@+id/countries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:padding="8dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:background="@drawable/content"
+                    android:text="no of countries here"
+                    />
+
+
+                <ImageView
+            android:id="@+id/map"
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/asia" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+             <ScrollView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+                 <TextView
+                     android:id="@+id/desc"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textSize="23sp"
+                     android:padding="8dp"
+                     android:textColor="#000"
+                     android:fontFamily="serif"
+                     android:text="Description here"
+                     android:scrollbars="vertical"
+                     android:background="#fff"
+
+                     />
+             </ScrollView>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

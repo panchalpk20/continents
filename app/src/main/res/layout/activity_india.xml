@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".India">
+
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/india"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@drawable/liner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Andra_Pradesh"
+
+                    android:tag="Andra_Pradesh"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arunachal Pradesh"
+                    android:tag="Arunachal_Pradesh"
+                    android:onClick="goState"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assam"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:tag="Assam"
+                    android:onClick="goState"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bihar"
+                    android:tag="Bihar"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chhattisgarh"
+                    android:tag="Chhattisgarh"
+                    android:onClick="goState"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Goa"
+                    android:tag="Goa"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gujarat"
+                    android:tag="Gujraat"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hariyana"
+                    android:tag="Hariyana"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Himachal Pradesh"
+                    android:tag="Himachal_Pradesh"
+                    android:onClick="goState"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jammu and Kashmir"
+                    android:tag="Jammu_and_Kashmir"
+                    android:onClick="goState"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jharkhand"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:tag="Jharkhand"
+                    android:onClick="goState"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karnataka"
+                    android:tag="Karnataka"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kerala"
+                    android:tag="Kerala"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:onClick="goState"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Madhya Pradesh"
+                    android:tag="Madhya_Pradesh"
+                    android:onClick="goState"
+                    android:background="@drawable/tab_bg"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maharashtra"
+                android:tag="Maharashtra"
+                android:onClick="goState"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manipur"
+                android:tag="Manipur"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meghalaya"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:tag="Meghalaya"
+                android:onClick="goState"
+                />  <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mizoram"
+            android:tag="Mizoram"
+            android:onClick="goState"
+            android:background="@drawable/tab_bg"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nagaland"
+                android:tag="Nagaland"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Odisha"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:tag="Odisha"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Punjab"
+                android:tag="Punjab"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajasthan"
+                android:tag="Rajasthan"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sikkim"
+                android:tag="Sikkim"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tamil Nadu"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:tag="Tamil_Nadu"
+                android:onClick="goState"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telangana"
+                android:tag="Telangana"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tripura"
+                android:tag="Tripura"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uttar Pradesh"
+                android:tag="Uttar_Pradesh"
+                android:onClick="goState"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uttarakhand"
+                android:tag="Uttarakhand"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:onClick="goState"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="West Bengal"
+                android:background="@drawable/tab_bg"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:tag="West_Bengal"
+                android:onClick="goState"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
